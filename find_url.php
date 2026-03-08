@@ -22,7 +22,7 @@ function find_dynamic_url() {
     $max_parallel_requests = 500;
     $counter = 0;
 
-    for ($i = 0; $i <= 467; $i++) {
+    for ($i = 466; $i <= 9999; $i++) {
         $dynamic_part = str_pad($i, 4, "0", STR_PAD_LEFT);
         $url = $base_url . $dynamic_part . ".sbs";
 
